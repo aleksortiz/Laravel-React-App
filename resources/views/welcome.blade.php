@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <div id="example"></div>
+@extends('adminlte::page')
+
+@section('title', 'Dashboard')
+
+
+@section('content')
+    <div id="root"></div>
+@stop
+
+@section('css')
+@stop
+
+@section('js')
     <script src="{{ asset('js/app.js') }}" defer></script>
-</body>
-</html>
+@stop
